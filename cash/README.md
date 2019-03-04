@@ -8,8 +8,11 @@
 To convert money to other currencies on a command prompt, you need to be on the bin repository of the cash module (`cd .../yourpath/3-musketeers/cash/bin`) and enter one of the following commands:
 
   1. `node index.js` : Converts money using the default currencies.
+  
   2. `node index.js <amount>` : Converts money by using the default currencies and specifying the amount to be converted.
-- `<amount>` (int, float) - The amount of money to convert.
+  
+`<amount>` (int, float) - The amount of money to convert.
+
   3. `node index.js <amount> <from> <to>` : Converts money by specifying the amount, its currency and the currencies to be converted into.
 - `<amount>` (int, float) - The amount of money to convert.
 - `<from>` (string) - The currency of the amount to convert. See more on `cash/lib/currencies.json`
